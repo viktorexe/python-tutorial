@@ -15,4 +15,6 @@ print('Uppercase of your name is: ', username.upper())
 print('Length of your name string is: ', len(username))
 print('First letter of your string is: ', username[0])
 print('Here is your username replaced by AI: ', name.replace('Viktor', 'AI'))
-print('First letter capatilized: ', username.capatilize())
+
+fruit = 'mango'
+print('Mango is a', len(fruit), 'letter word')
