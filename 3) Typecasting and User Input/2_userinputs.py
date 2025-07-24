@@ -30,3 +30,13 @@ print(value1 + value2)
 username = input('Please enter your name: ')
 userage = int(input('Please enter your age: '))
 print("Hello", username,'you are', userage,'years old')
+
+# 7. Combining 2 string inputs 
+firstname = input('Please enetr your first name: ')
+surname = input('Please enter your surname: ')
+print('Your full name is:', firstname, surname)
+
+# 8. Combining two integer inputs and printing the sum 
+num_1 = int(input('Please enter first number: '))
+num_2 = int(input('Please enter second number: '))
+print('Their sum is: ', num_1+num_2)
