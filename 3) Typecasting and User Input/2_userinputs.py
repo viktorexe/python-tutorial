@@ -25,3 +25,8 @@ value1, value2 = input('Please enter 2 values you want to add: ').split()
 value1 = int(value1)
 value2 = int(value2)
 print(value1 + value2)
+
+# 6. Multiple different inputs at once
+username = input('Please enter your name: ')
+userage = int(input('Please enter your age: '))
+print("Hello", username,'you are', userage,'years old')
