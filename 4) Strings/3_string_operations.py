@@ -23,6 +23,7 @@ print(c.startswith('Welcome')) # To check if a given string starts with the ente
 print(c.center(50)) # Shifts the text to centre with 50 blank spaces on left
 print(d.count('hello')) # Counts the numebr of time the thing appears in the string
 print(d.find('you')) # Finds the thing and returns with index number, if not found returns -1
+print(d.title()) # Capitalizes all the first letters of words in the string
 print(e.isalnum()) # Returns True if the string has only A-Z, a-z, or numbers, no white spaces or any character
 print(f.isspace()) # Returns True if the string only contains white spaces
 print(g.istitle()) # Returns True if all words of string have first letter capitalized
