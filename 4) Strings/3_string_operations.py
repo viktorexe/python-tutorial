@@ -5,6 +5,7 @@ b = 'Banana!!!'
 c = 'Welcome to the consle!!'
 d = 'hello hello everyone how are you'
 e = 'ABCEDFGhijklmnop123'
+f = ' '
 
 print(len(a)) # Prints Length of a
 print(a.upper()) # Fully capatilizes the string
@@ -21,3 +22,5 @@ print(c.center(50)) # Shifts the text to centre with 50 blank spaces on left
 print(d.count('hello')) # Counts the numebr of time the thing appears in the string
 print(d.find('you')) # Finds the thing and returns with index number, if not found returns -1
 print(e.isalnum()) # Returns True if the string has only A-Z, a-z, or numbers, no white spaces or any character
+print(f.isspace()) # returns True if the string only contains white spaces
+print()
