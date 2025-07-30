@@ -4,6 +4,7 @@ a = 'mango'
 b = 'Banana!!!'
 c = 'Welcome to the consle!!'
 d = 'hello hello everyone how are you'
+e = 'ABCEDFGhijklmnop123'
 print(len(a)) # Prints Length of a
 print(a.upper()) # Fully capatilizes the string
 print(a.lower()) # Changes to string to lowercase
@@ -15,3 +16,4 @@ print(c.endswith('!')) # To check if a given string ends with the entered charac
 print(c.center(50)) # Shifts the text to centre with 50 blank spaces on left
 print(d.count('hello')) # Counts the numebr of time the thing appears in the string
 print(d.find('you')) # Finds the thing and returns with index number, if not found returns -1
+print(e.isalnum())
