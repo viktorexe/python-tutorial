@@ -3,7 +3,7 @@
 a = 'mango'
 b = 'Banana!!!'
 c = 'Welcome to the consle!!'
-d = 'hello hello everyone'
+d = 'hello hello everyone how a'
 print(len(a)) # Prints Length of a
 print(a.upper()) # Fully capatilizes the string
 print(a.lower()) # Changes to string to lowercase
