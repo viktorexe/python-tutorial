@@ -16,4 +16,4 @@ print(c.endswith('!')) # To check if a given string ends with the entered charac
 print(c.center(50)) # Shifts the text to centre with 50 blank spaces on left
 print(d.count('hello')) # Counts the numebr of time the thing appears in the string
 print(d.find('you')) # Finds the thing and returns with index number, if not found returns -1
-print(e.isalnum())
+print(e.isalnum()) # Returns True if the string has only A-Z, a-z, or numbers, no white spaces or any character
