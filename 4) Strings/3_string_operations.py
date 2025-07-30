@@ -5,11 +5,13 @@ b = 'Banana!!!'
 c = 'Welcome to the consle!!'
 d = 'hello hello everyone how are you'
 e = 'ABCEDFGhijklmnop123'
+
 print(len(a)) # Prints Length of a
 print(a.upper()) # Fully capatilizes the string
 print(a.lower()) # Changes to string to lowercase
 print(a.capitalize()) # Converts everything to lowercase and only capitalizes the first letter of the string
 print(a.replace('Mango', 'Apple')) # Replaces the character(s) in the string and returns a modified string 
+print(a.isalpha()) # Returns True if the whole string is only A-Z or a-z, no white spaces, numbers or characters
 print(b.rstrip('!')) # Removes unwanted characters from strings (does not work for the ones before string)
 print(c.rstrip('!'))
 print(c.endswith('!')) # To check if a given string ends with the entered character (returns True or False)
