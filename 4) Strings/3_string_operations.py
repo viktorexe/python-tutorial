@@ -1,13 +1,6 @@
-name = '  ____Viktor_  '
-fruit = 'mango'
-# 1. Remove white spaces, \n, \t, from the string
-print(name.strip())
+# Strings are immutable, existing strings never change, it makes a new string
 
-# 2. Remove spaces from right side only 
-print(name.rstrip())
-
-# 3. Remove spaces from left side only 
-print(name.lstrip())
-
-# 4. Make it uppercase
-print(fruit.upper())
+a = 'Mango'
+print(len(a)) # Prints Length of a
+print(a.upper()) # Fully capatilizes the string
+print(a.lower())

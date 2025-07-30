@@ -11,3 +11,8 @@ print(country[1])
 print(country[2])
 print(country[3])
 print(country[4])
+
+# To print length of a string
+countryLen = len(country)
+print(countryLen)
+print(len(country))
