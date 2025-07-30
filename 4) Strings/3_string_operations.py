@@ -11,6 +11,6 @@ print(a.capitalize()) # Converts everything to lowercase and only capitalizes th
 print(a.replace('Mango', 'Apple')) # Replaces the character(s) in the string and returns a modified string 
 print(b.rstrip('!')) # Removes unwanted characters from strings (does not work for the ones before string)
 print(c.rstrip('!'))
-print(c.endswith('!')) # To c
+print(c.endswith('!')) # To check if a given string ends woth 
 print(c.center(50)) # Shifts the text to centre with 50 blank spaces on left
 print(d.count('hello')) # Counts the numebr of time the thing appears in the string
