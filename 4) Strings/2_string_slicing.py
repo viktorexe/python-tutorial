@@ -4,7 +4,7 @@ name = 'viktor'
 print(len(name)) # Output is 6
 
 # 2. To print a particular character of a string
-print(name[0]) # Output V since indexing begins from 0, 1, 2 ....
+print(name[0]) # Output V since indexing begins from 0, 1, 2 .... 
 print(name[-1]) # Prints the last character 'r'
 print(name[0:1]) # prints only v, if it is between 0 -> 1 then it does not prints 1
 print(name[0:]) # prints full 
