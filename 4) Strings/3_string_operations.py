@@ -1,6 +1,6 @@
 # Strings are immutable, existing strings never change, it makes a new string
 
-a = 'mango'
+a = 'mango\n'
 b = 'Banana!!!'
 c = 'Welcome to the consle!!'
 d = 'hello hello everyone how are you'
