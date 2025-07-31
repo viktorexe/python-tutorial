@@ -15,3 +15,7 @@ match color: # Match statement for color
         print('Red light means stop')
 
     case 'yellow': # If the user enters yellow in the input
+        print('Yellow means slow')
+    
+    case 'green': # If the uer enters green in the input
+        
