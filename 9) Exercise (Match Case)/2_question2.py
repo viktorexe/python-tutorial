@@ -7,7 +7,7 @@ green → "Go"
 anything else → "Invalid color"
 '''
 
-color = input('please enter the color: ')
+color = input('please enter the color: ').lower() # To lowercase the entered string in case user enters Red instead of red
 
 match color: # Match statement for color
     
@@ -22,4 +22,5 @@ match color: # Match statement for color
 
     case _: # If the user enters none of the above color
         print(color, 'is not a color in traffic light')
+
 # End of program    
