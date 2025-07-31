@@ -7,4 +7,4 @@ if(num>0):
 elif(num<0):
     print(num,'is a negative number and less than 0')
 else:
-    print(num,'is 0, neither positive nor negative')
+    print(num,'is neither positive nor negative')
