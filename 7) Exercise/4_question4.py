@@ -8,5 +8,6 @@ Input: A numberPrint:
 '''
 
 number = int(input('Please enter a number: '))
-if(number%2 = 0 and number%5=0):
-    print('The number is even and a multiple of 5')
+if(number%2 == 0):
+    if(number%5==0):
+        print()
