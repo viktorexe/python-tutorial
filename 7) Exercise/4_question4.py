@@ -12,4 +12,9 @@ if(number%2 == 0):
     if(number%5==0):
         print('The number is even and a multiple of 5')
     else:
-        print('The number is even but not a multiple by 5')
+        print('The number is even but not a multiple of 5')
+if(number%2!=0):
+    if(number%5==0):
+        print('The number is odd and a multiple of 5')
+    else:
+        print('The number is odd but not a multiple of 5')
