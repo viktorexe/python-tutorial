@@ -8,8 +8,8 @@ elif(num>0):
     if(num >= 1 and num <= 5):
         print('Entered number lies between 1-5')
     if(num>5 and num<=10):
-        print('Number lies between 6-10')
+        print('Entered number lies between 6-10')
     else:
-        print('Number is greater than 10')
+        print('Entered number is greater than 10')
 else:
     print('Number is 0')
