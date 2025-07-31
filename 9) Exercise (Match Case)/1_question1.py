@@ -21,4 +21,6 @@ match operator: # Match statement for operator
         product = num1_mul * num2_mul 
         print('The product is', product)
     case '/':
-        num1_div =
+        num1_div = int(input('Please enter the first number: '))
+        num2_div = int(input('Please enter the second number: '))
+        ans = num1_div/num
