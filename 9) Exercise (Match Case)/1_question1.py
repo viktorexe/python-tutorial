@@ -17,13 +17,14 @@ match operator: # Match statement for operator
             print('The difference is', difference,'and is a negative number')
         else:
             print('The difference is', difference)
-            
-    case '*':
+
+    case '*': # The case for * 
         num1_mul = int(input('Please enter the first number: '))
         num2_mul = int(input('Please enter the second number: '))
         product = num1_mul * num2_mul 
         print('The product is', product)
-    case '/':
+
+    case '/': # The case for division
         num1_div = int(input('Please enter the first number: '))
         num2_div = int(input('Please enter the second number: '))
         ans = num1_div/num2_div
