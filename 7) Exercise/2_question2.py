@@ -7,3 +7,6 @@ Output:
 50-69 → C
 <50 → Fail
 '''
+
+print('Grade Calculator')
+grades = int(input)
