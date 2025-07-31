@@ -12,4 +12,4 @@ elif(num>0):
     else:
         print('Entered number is greater than 10')
 else:
-    print('Number is 0')
+    print('Entered number is 0')
