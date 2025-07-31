@@ -12,4 +12,7 @@ Length > 10 and mix → "Very Strong"
 password = input('Please enter your password: ')
 if(password.isdigit()):
     print('Your password is weak')
-elif(password.isalnum)
+elif(password.isalnum()):
+    print('Your password is moderate with numbers and alphabets'):
+elif(password.isalnum()):
+    if(len(password))
