@@ -8,8 +8,8 @@ match operator: # Match statement for operator
         num2_add = int(input('Please enter second number: '))
         sum = num1_add + num2_add
         print('The sum is: ',sum)
-        
-    case '-':
+
+    case '-': # the case for subtraction 
         num1_sub = int(input('Please enter the first number: '))
         num2_sub = int(input('Please enter the second number: '))
         difference = num1_sub - num2_sub
@@ -17,6 +17,7 @@ match operator: # Match statement for operator
             print('The difference is', difference,'and is a negative number')
         else:
             print('The difference is', difference)
+            
     case '*':
         num1_mul = int(input('Please enter the first number: '))
         num2_mul = int(input('Please enter the second number: '))
