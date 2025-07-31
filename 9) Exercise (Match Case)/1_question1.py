@@ -9,5 +9,11 @@ match operator: # Match statement for operator
         print('The sum is: ',sum)
     case '-':
         num1_sub = int(input('Please enter the first number: '))
-        num2_sub = int(input('Please enter the second number: ')
-                       )
+        num2_sub = int(input('Please enter the second number: '))
+        difference = num1_sub - num2_sub
+        if(difference<0):
+            print('The difference is', difference,'and is a negative number')
+        else:
+            print('The difference is', difference)
+    case '*':
+        num1_mul = int(input)
