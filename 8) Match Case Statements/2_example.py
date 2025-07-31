@@ -19,3 +19,5 @@ match day_num:
         print('you entered 7 and the day is Sunday')
     case _:
         print('There are 7 days in a week')
+
+# End of program 
