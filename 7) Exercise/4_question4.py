@@ -10,4 +10,6 @@ Input: A numberPrint:
 number = int(input('Please enter a number: '))
 if(number%2 == 0):
     if(number%5==0):
-        print()
+        print('The number is even and divisible by 5')
+    else:
+        print('')
