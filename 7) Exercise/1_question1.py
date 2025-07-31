@@ -7,4 +7,4 @@ Task: Print:
 "Hot 🔥" if above 25
 '''
 
-print('Temperature Checker program!')
+print('Temperature Checker program!') 
