@@ -13,9 +13,9 @@ password = input('Please enter your password: ')
 if(password.isdigit()):
     print('Your password is weak')
 elif(password.isalnum()):
-    print('Your password is moderate with numbers and alphabets'):
+    print('Your password is moderate with numbers and alphabets')
 elif(password.isalnum()):
     if(len(password)>8):
         print('Your password is strong with more than 8 characters')
 else:
-    print
+    print('Your password is very string with special characters')
