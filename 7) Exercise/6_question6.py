@@ -15,4 +15,7 @@ if(password.isdigit()):
 elif(password.isalnum()):
     print('Your password is moderate with numbers and alphabets'):
 elif(password.isalnum()):
-    if(len(password))
+    if(len(password)>8):
+        print('Your password is strong with more than 8 characters')
+else:
+    print
