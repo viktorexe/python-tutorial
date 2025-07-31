@@ -1,6 +1,11 @@
 # Simple Calculator using match case 
 
-operator = input('Please enter the operation to perform: +, -, *, /')
+operator = input('''Please enter the operation to perform: 
+1. +
+2. -
+3. *
+4. /
+Please enter from the above options, enter the option not the serial number: ''')
 match operator: # Match statement for operator 
 
     case '+': # The case for addition 
