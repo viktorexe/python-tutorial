@@ -20,4 +20,6 @@ match color: # Match statement for color
     case 'green': # If the uer enters green in the input
         print('Green means go')
 
+    case _: # If the user enters none of the above color
+        print(color, 'is not a color in traffic light')
 # End of program    
