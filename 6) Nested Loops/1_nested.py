@@ -10,4 +10,6 @@ elif(num>0):
     if(num>5 and num<=10):
         print('Number lies between 6-10')
     else:
-        print('Number is greate')
+        print('Number is greater than 10')
+else:
+    print('Number os 0')
