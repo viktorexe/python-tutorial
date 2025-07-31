@@ -1,3 +1,3 @@
 # Type of integer, using elif
 
-num = int(input(''))
+num = int(input('Please enter a number: '))
