@@ -10,4 +10,4 @@ match day_num:
     case 3: 
         print('you entered 3 and the day is Wednesday')
     case 4: 
-        
+        print
