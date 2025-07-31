@@ -16,4 +16,9 @@ match operator: # Match statement for operator
         else:
             print('The difference is', difference)
     case '*':
-        num1_mul = int(input)
+        num1_mul = int(input('Please enter the first number: '))
+        num2_mul = int(input('Please enter the second number: '))
+        product = num1_mul * num2_mul 
+        print('The product is', product)
+    case '/':
+        num1_div =
