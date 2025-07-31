@@ -9,3 +9,5 @@ match day_num:
         print('You entered 2 and the day is Tuesday')
     case 3: 
         print('you entered 3 and the day is Wednesday')
+    case 4: 
+        
