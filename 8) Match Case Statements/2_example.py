@@ -8,4 +8,4 @@ match day_num:
     case 2: 
         print('You entered 2 and the day is Tuesday')
     case 3: 
-        
+        print('you entered 3 and the day is Wednesday')
