@@ -12,4 +12,6 @@ match day_num:
     case 4: 
         print('You entered 4 and the day is Thursday')
     case 5: 
-        print('You entered 5 and the day is Friday ')
+        print('You entered 5 and the day is Friday')
+    case 6: 
+        print('You entered 6 and the day is Saturday')
