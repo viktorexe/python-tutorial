@@ -23,4 +23,4 @@ match color: # Match statement for color
     case _: # If the user enters none of the above color
         print(color, 'is not a color in traffic light')
 
-# End of program    
+# End of program
