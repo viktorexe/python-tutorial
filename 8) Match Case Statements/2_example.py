@@ -7,3 +7,5 @@ match day_num:
         print('You entered 1 and the day is Monday')
     case 2: 
         print('You entered 2 and the day is Tuesday')
+    case 3: 
+        
