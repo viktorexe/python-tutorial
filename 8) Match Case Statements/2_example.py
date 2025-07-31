@@ -17,7 +17,7 @@ match day_num:
         print('You entered 6 and the day is Saturday')
     case 7: 
         print('you entered 7 and the day is Sunday')
-    case _: # Using _ means default case, just like 'els
-        print('There are 7 days in a week')
+    case _: # Using _ means default case, just like 'else' in if else statements 
+        print('There are 7 days in a week, enter a number between 1-7')
 
 # End of program 
