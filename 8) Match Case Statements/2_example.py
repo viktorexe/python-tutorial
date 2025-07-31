@@ -6,4 +6,4 @@ match day_num:
     case 1:
         print('You entered 1 and the day is Monday')
     case 2: 
-        print
+        print('You entered 2 and the day is Tuesday')
