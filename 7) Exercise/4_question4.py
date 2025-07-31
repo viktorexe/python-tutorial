@@ -1,8 +1,12 @@
 '''
-4. Odd or Even + Multiple of 5
+Odd or Even + Multiple of 5
 Input: A numberPrint:
 "Even and multiple of 5"
 "Odd and multiple of 5"
 "Even but not multiple of 5"
 "Odd and not multiple of 5"
 '''
+
+number = int(input('Please enter a number: '))
+if(number%2 = 0 and number%5=0):
+    print('The number is even and a multiple of 5')
