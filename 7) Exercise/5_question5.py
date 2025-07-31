@@ -16,5 +16,8 @@ elif(time>=12 and time <=16):
     print('Good afternoon')
 elif(time>=17 and time<=20):
     print('Good evening')
+elif(time>=21 and time<=23):
+    print('Good night')
 else:
-    
+    print('Invalid time entered')
+
