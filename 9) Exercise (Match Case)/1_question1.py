@@ -23,4 +23,7 @@ match operator: # Match statement for operator
     case '/':
         num1_div = int(input('Please enter the first number: '))
         num2_div = int(input('Please enter the second number: '))
-        ans = num1_div/num
+        ans = num1_div/num2_div
+        print('The answer is', ans)
+
+# End of program 
