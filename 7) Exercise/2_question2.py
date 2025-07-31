@@ -15,4 +15,6 @@ if(grades>=90 and grades<=100):
 elif(grades>=70 and grades <=89):
     print('You have got a B grade')
 elif(grades>=50 and grades<=69):
-    print('You have got a C grade'
+    print('You have got a C grade')
+else:
+    print('You did not pass, retry')
