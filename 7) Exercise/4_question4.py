@@ -1,8 +1,6 @@
 '''
 4. Odd or Even + Multiple of 5
-Input: A number
-Print:
-
+Input: A numberPrint:
 "Even and multiple of 5"
 
 "Odd and multiple of 5"
