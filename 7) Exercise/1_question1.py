@@ -8,4 +8,4 @@ Task: Print:
 '''
 
 print('Temperature Checker program!') 
-temperature = float(input('Enter the temperature: ')) # F
+temperature = float(input('Enter the temperature: ')) # Float input for temperature as it is decimal  
