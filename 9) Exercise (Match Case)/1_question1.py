@@ -8,4 +8,6 @@ match operator: # Match statement for operator
         sum = num1_add + num2_add
         print('The sum is: ',sum)
     case '-':
-        num1
+        num1_sub = int(input('Please enter the first number: '))
+        num2_sub = int(input('Please enter the second number: ')
+                       )
