@@ -14,3 +14,9 @@ list = ['hi', 'hello', 12]
 for i in list:
     print(i) # Prints every object in the list 
 
+# We can add more nesting in it, if we want to print something over an index
+country ='India'
+for i in country:
+    print(i)
+    if(i=='I'):
+        print('This is something special')
